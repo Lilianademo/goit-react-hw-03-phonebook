@@ -1,0 +1,69 @@
+
+.title,
+.subtitle,
+.input,
+.description,
+.add_contact_button {
+  margin-left: 20px;
+}
+.subtitle{
+    margin-bottom: auto;
+}
+.add_contact_button {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: green;
+}
+
+.add_contact_button:hover {
+  cursor: pointer;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+.delete_button {
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-color: red;
+}
+
+.delete_button:hover {
+  cursor: pointer;
+}
+
+.contact_item {
+  margin-top: 15px;
+}
+
+h1 {
+    color: #333;
+  }
+  h2 {
+    color: #666;
+    text-align: center;
+  }
+  div {
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 380px) {
+    div {
+      max-width: 380px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    div {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    div {
+      max-width: 1024px;
+    }
+  }
+  
